@@ -3,6 +3,13 @@ Experimental LSTM approach on Insulin Prediction using HUPA Diabetes Dataset
 
 Effective insulin management is crucial for individuals with diabetes, requiring accurate predictions for basal and bolus doses based on factors like glucose levels, activity, and food intake. This study presents a machine learning approach using Long Short-Term Memory (LSTM) networks to predict insulin needs from sequential data, including glucose levels, caloric intake, heart rate, steps, and carb inputs. The system uses the HUPA UCM Diabetes dataset, which contains time-stamped physiological and behavioral data. After preprocessing and normalization, the data is structured into sequences for time-series analysis, allowing the LSTM models to identify key patterns. The models are trained and evaluated with MAPE to ensure accurate predictions. This approach aims to improve diabetes management by offering a reliable tool for personalized insulin dosing.
 
+## Dataset 
+
+HUPA-UCM diabetes dataset 
+https://www.sciencedirect.com/science/article/pii/S2352340924005262
+
+Download dataset variant from https://data.mendeley.com/datasets/3hbcscwz44/1
+
 ## Proposed System Architecture
 ![image](https://github.com/user-attachments/assets/74b9cb4e-dd96-45f4-a046-79be685e5d4c)
 
